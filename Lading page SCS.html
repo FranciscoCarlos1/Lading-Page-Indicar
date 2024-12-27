@@ -9,14 +9,14 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-image: url('https://github.com/FranciscoCarlos1/Lading-Page-Indicar/blob/main/Imagem%20do%20WhatsApp%20de%202024-12-27%20%C3%A0(s)%2013.40.03_466b0203.jpg');
+            background-image: url('https://example.com/imagem-fundo-otimizada.jpg'); /* Substitua pela nova URL */
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
-            color: #fff; /* Para melhorar a visibilidade do texto no fundo */
+            color: #fff;
         }
         .hero {
-            background: linear-gradient(to right, #0066cc, #00ccff);
+            background: rgba(0, 102, 204, 0.8); /* Transparência para destacar texto */
             color: white;
             text-align: center;
             padding: 50px 20px;
@@ -107,10 +107,10 @@
         </div>
     </section>
 
-     <!-- Formulário de Indicação -->
+    <!-- Formulário de Indicação -->
     <section id="formulario" class="container py-5">
         <h2 class="text-center mb-4">Indique Agora</h2>
-        <form action="https://scsistemas.meusg.com.br/processar-indicacao" method="POST">
+        <form action="mailto:seuemail@dominio.com" method="POST" enctype="text/plain">
             <div class="mb-3">
                 <label for="nome" class="form-label">Seu Nome</label>
                 <input type="text" id="nome" name="nome" class="form-control" required>
@@ -141,18 +141,6 @@
             </div>
             <button type="submit" class="btn btn-primary">Enviar Indicação</button>
         </form>
-    </section>
-
-    <!-- Regras -->
-    <section class="container py-5">
-        <h2 class="text-center mb-4">Regras</h2>
-        <ol>
-            <li>Os pagamentos das comissões ocorrerão sempre aos dias 20 de cada mês, podendo ser prorrogado para o próximo dia útil, em casos de feriados e finais de semanas.</li>
-            <li>Caso o cliente cancele o projeto, a comissão também é cancelada.</li>
-            <li>O período mínimo para o pagamento da comissão ocorrem após 60 dias do fechamento do contrato.</li>
-            <li>O afiliado precisa preencher o formulario de indicação para concretizá-la e assim receber a comissão.</li>
-            <li>A SCS se reserva o direito de cancelar/alterar sua política de comissionamento do programa de afiliados a qualquer momento, mediante aviso prévio, respeitado o pactuado até a data da formalização do aviso de alteração/cancelamento.</li>
-        </ol>
     </section>
 
     <!-- Footer -->
