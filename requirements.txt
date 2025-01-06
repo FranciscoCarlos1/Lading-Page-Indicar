@@ -1,4 +1,2 @@
-python -m venv venv
-source venv/bin/activate  # Em sistemas baseados em Unix
-pip install -r requirements.txt
-flask run
+flask==3.0.0
+flask-cors==5.0.0
