@@ -1,3 +1,11 @@
-git add render.yaml
-git commit -m "Add render.yaml"
-git push
+# Exported from Render on 2025-01-06T14:06:19Z
+services:
+- type: web
+  name: Lading-Page-Indicar
+  runtime: python
+  repo: https://github.com/FranciscoCarlos1/Lading-Page-Indicar
+  plan: free
+  region: oregon
+  buildCommand: pip install -r requirements.txt
+  startCommand: "0"
+version: "1"
